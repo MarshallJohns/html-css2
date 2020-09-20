@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 500vh;
+    padding-top: 20vh;
+    padding-left: 10px;
+
+}
+
+.header {
+    background: tomato;
+    width: 100vw;
+    height: 20vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.relative-div {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: relative;
+    
+}
+
+.absolute-parent {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 10px;
+    top: 15px;
+    right: 10px;
+
+}
+
+.absolute-div {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background: seagreen;
+    top: 0;
+    left: 4px;
+    z-index: 2;
+}
+
+.sticky-div {
+    width: 50vw;
+    height: 5vh;
+    background-color: lawngreen;
+    position: sticky;
+    top: 20vh;
+}
+
+.flex-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-child {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+}
